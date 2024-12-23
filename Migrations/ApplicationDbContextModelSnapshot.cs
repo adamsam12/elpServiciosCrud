@@ -32,7 +32,8 @@ namespace CrudNet8MVC.Migrations
 
                     b.Property<string>("Celular")
                         .IsRequired()
-                        .HasColumnType("longtext");
+                        .HasMaxLength(9)
+                        .HasColumnType("varchar(9)");
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -46,7 +47,6 @@ namespace CrudNet8MVC.Migrations
                         .HasColumnType("longtext");
 
                     b.Property<string>("Telefono")
-                        .IsRequired()
                         .HasColumnType("longtext");
 
                     b.HasKey("Id");

@@ -6,11 +6,11 @@ using System.Diagnostics;
 
 namespace CrudNet8MVC.Controllers
 {
-    public class InicioController : Controller
+    public class ContactController : Controller
     {
        private readonly ApplicationDbContext _contexto;
 
-        public InicioController(ApplicationDbContext contexto)
+        public ContactController(ApplicationDbContext contexto)
         {
             _contexto = contexto;
         }

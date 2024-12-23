@@ -3,13 +3,13 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-//Configuramos la conexión a sql ser local db MSSQLLOCAL
+//Configuramos la conexi?n a sql ser local db MSSQLLOCAL
 /*builder.Services.AddDbContext<ApplicationDbContext>(opciones => 
             opciones.UseSqlServer(builder.Configuration.GetConnectionString("ConexionMySql")));*/
 builder.Services.AddDbContext<ApplicationDbContext>(opciones =>
     opciones.UseMySql(
         builder.Configuration.GetConnectionString("ConexionMySql"),
-        new MySqlServerVersion(new Version(8, 0, 40)) // Cambia según tu versión de MySQL
+        new MySqlServerVersion(new Version(8, 0, 40)) // Cambia seg?n tu versi?n de MySQL
     ));
 
 // Add services to the container.
@@ -30,6 +30,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Inicio}/{action=Index}/{id?}");
+    pattern: "{controller=Contact}/{action=Index}/{id?}");
 
 app.Run();

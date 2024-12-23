@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CrudNet8MVC.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241206053147_MigracionContacto")]
-    partial class MigracionContacto
+    [Migration("20241223054135_Initial-validation")]
+    partial class Initialvalidation
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -35,7 +35,8 @@ namespace CrudNet8MVC.Migrations
 
                     b.Property<string>("Celular")
                         .IsRequired()
-                        .HasColumnType("longtext");
+                        .HasMaxLength(9)
+                        .HasColumnType("varchar(9)");
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -49,7 +50,6 @@ namespace CrudNet8MVC.Migrations
                         .HasColumnType("longtext");
 
                     b.Property<string>("Telefono")
-                        .IsRequired()
                         .HasColumnType("longtext");
 
                     b.HasKey("Id");
