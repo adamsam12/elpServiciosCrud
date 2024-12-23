@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CrudNet8MVC.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241206053147_MigracionContacto")]
-    partial class MigracionContacto
+    [Migration("20241223063119_UPDATE-CONTACT")]
+    partial class UPDATECONTACT
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -35,7 +35,8 @@ namespace CrudNet8MVC.Migrations
 
                     b.Property<string>("Celular")
                         .IsRequired()
-                        .HasColumnType("longtext");
+                        .HasMaxLength(9)
+                        .HasColumnType("varchar(9)");
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -49,12 +50,35 @@ namespace CrudNet8MVC.Migrations
                         .HasColumnType("longtext");
 
                     b.Property<string>("Telefono")
-                        .IsRequired()
                         .HasColumnType("longtext");
 
                     b.HasKey("Id");
 
                     b.ToTable("Contacto");
+                });
+
+            modelBuilder.Entity("CrudNet8MVC.Models.Message", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Text")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Message");
                 });
 #pragma warning restore 612, 618
         }
