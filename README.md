@@ -31,6 +31,13 @@ Recarga tu archivo de perfil:
 source ~/.zshrc
 ```
 
+Recarga tu archivo de perfil: windows
+
+```jsx
+New-Item -Path $PROFILE -ItemType File -Force
+. $PROFILE
+```
+
 Verifica que dotnet-ef está instalado correctamente:
 
 ```jsx
@@ -44,6 +51,10 @@ dotnet ef migrations add Initial --project CrudNet8MVC.csproj --startup-project 
 ```
 
 update base
+
+```jsx
+dotnet build
+```jsx
 
 ```jsx
 dotnet ef database update --project CrudNet8MVC.csproj --startup-project CrudNet8MVC.csproj
