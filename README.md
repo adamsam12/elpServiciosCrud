@@ -13,11 +13,16 @@ Instala la herramienta dotnet-ef globalmente:
 dotnet tool install --global dotnet-ef
 ```
 
-Agrega la ruta de las herramientas globales de .NET a tu variable de entorno PATH.
+Agrega la ruta de las herramientas globales de .NET a tu variable de entorno PATH. linux
 
 ```jsx
 export PATH="$PATH:$HOME/.dotnet/tools"
 
+```
+
+windows
+```jsx
+$env:PATH += ";$HOME\.dotnet\tools"
 ```
 
 Recarga tu archivo de perfil:
