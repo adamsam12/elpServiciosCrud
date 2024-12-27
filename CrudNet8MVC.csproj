@@ -26,4 +26,13 @@
     <Folder Include="Migrations\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <AdditionalFiles Include="Views\Proveedor\Create.cshtml" />
+    <AdditionalFiles Include="Views\Proveedor\Delete.cshtml" />
+    <AdditionalFiles Include="Views\Proveedor\Details.cshtml" />
+    <AdditionalFiles Include="Views\Proveedor\Edit.cshtml" />
+    <AdditionalFiles Include="Views\Proveedor\Index.cshtml" />
+    <AdditionalFiles Include="Views\Proveedor\Privacy.cshtml" />
+  </ItemGroup>
+
 </Project>
