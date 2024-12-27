@@ -13,17 +13,29 @@ Instala la herramienta dotnet-ef globalmente:
 dotnet tool install --global dotnet-ef
 ```
 
-Agrega la ruta de las herramientas globales de .NET a tu variable de entorno PATH.
+Agrega la ruta de las herramientas globales de .NET a tu variable de entorno PATH. linux
 
 ```jsx
 export PATH="$PATH:$HOME/.dotnet/tools"
 
 ```
 
+windows
+```jsx
+$env:PATH += ";$HOME\.dotnet\tools"
+```
+
 Recarga tu archivo de perfil:
 
 ```jsx
 source ~/.zshrc
+```
+
+Recarga tu archivo de perfil: windows
+
+```jsx
+New-Item -Path $PROFILE -ItemType File -Force
+. $PROFILE
 ```
 
 Verifica que dotnet-ef está instalado correctamente:
@@ -39,6 +51,10 @@ dotnet ef migrations add Initial --project CrudNet8MVC.csproj --startup-project 
 ```
 
 update base
+
+```jsx
+dotnet build
+```jsx
 
 ```jsx
 dotnet ef database update --project CrudNet8MVC.csproj --startup-project CrudNet8MVC.csproj
