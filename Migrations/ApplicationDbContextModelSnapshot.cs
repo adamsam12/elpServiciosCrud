@@ -77,6 +77,31 @@ namespace CrudNet8MVC.Migrations
 
                     b.ToTable("Message");
                 });
+
+            modelBuilder.Entity("CrudNet8MVC.Models.Proveedor", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Ruc")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("direccion")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("razon_social")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("telefono")
+                        .HasColumnType("longtext");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Proveedor");
+                });
 #pragma warning restore 612, 618
         }
     }

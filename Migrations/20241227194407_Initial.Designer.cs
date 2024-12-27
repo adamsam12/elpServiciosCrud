@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CrudNet8MVC.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241223063119_UPDATE-CONTACT")]
-    partial class UPDATECONTACT
+    [Migration("20241227194407_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -79,6 +79,31 @@ namespace CrudNet8MVC.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Message");
+                });
+
+            modelBuilder.Entity("CrudNet8MVC.Models.Proveedor", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Ruc")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("direccion")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("razon_social")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("telefono")
+                        .HasColumnType("longtext");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Proveedor");
                 });
 #pragma warning restore 612, 618
         }
