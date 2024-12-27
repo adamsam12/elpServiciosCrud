@@ -1,13 +1,13 @@
 ﻿@model IEnumerable<CrudNet8MVC.Models.Contacto>
 @{
-    ViewData["Title"] = "Lista de Contactos";
+    ViewData["Title"] = "Lista de contactos";
 }
 
-<h1 class="text-center">Pagina Contacto </h1>
+<h1 class="text-center">Cotacto Page </h1>
 <div class="row">
     <div class="offset-9 col-3 mb-3">
-        <a asp-action="Crear" asp-controller="Contact" class="btn btn-secondary d-block mx-auto btn-lg">
-            <i class="fa fa-plus" aria-hidden="true"></i> Nuevo Usuario
+        <a asp-action="CrearContacto" asp-controller="Contact" class="btn btn-secondary d-block mx-auto btn-lg">
+            <i class="fa fa-plus" aria-hidden="true"></i> new Contacto
         </a>
     </div>
 </div>
@@ -16,7 +16,9 @@
     <div class="offset-12">
         <div class="card border">
             <div class="card-header bg-dark">
-                <h3 class="text-white"><strong>Lista de Usuarios</strong></h3>
+                <h3 class="text-white"><strong>
+                    Contact List
+                </strong></h3>
             </div>
             <div class="card-body">
                 <div class="table-responsive">
@@ -27,26 +29,25 @@
                                 <tr>
                                     <th>@Html.DisplayNameFor(m => m.Id)</th>
                                     <th>@Html.DisplayNameFor(m => m.Nombre)</th>
-                                    <th>@Html.DisplayNameFor(m => m.Telefono)</th>
-                                    <th>@Html.DisplayNameFor(m => m.Celular)</th>
+                                <th>@Html.DisplayNameFor(m => m.Telefono)</th>
+                                <th>@Html.DisplayNameFor(m => m.Celular)</th>
                                     <th>@Html.DisplayNameFor(m => m.Email)</th>
-                                    <th>@Html.DisplayNameFor(m => m.FechaCreacion)</th>
                                     <th>Acciones</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 @foreach(var item in Model){
                                     <tr>
-                                        <td>@Html.DisplayFor(m => item.Id)</td>
+                                        <th>@Html.DisplayFor(m => item.Id)</th>
                                         <td>@Html.DisplayFor(m => item.Nombre)</td>
                                         <td>@Html.DisplayFor(m => item.Telefono)</td>
                                         <td>@Html.DisplayFor(m => item.Celular)</td>
                                         <td>@Html.DisplayFor(m => item.Email)</td>
-                                        <td>@Html.DisplayFor(m => item.FechaCreacion)</td>
+                                        
                                         <td>
-                                            <a class="btn btn-warning" asp-action="Editar" asp-route-id="@item.Id"><i class="fa fa-pencil" aria-hidden="true"></i> Editar</a>
-                                            <a class="btn btn-secondary" asp-action="Detalle" asp-route-id="@item.Id"><i class="fa fa-info-circle" aria-hidden="true"></i> Detalle</a>
-                                            <a class="btn btn-danger" asp-action="Borrar" asp-route-id="@item.Id"><i class="fa fa-eraser" aria-hidden="true"></i> Borrar</a>
+                                            <a class="btn btn-warning" asp-action="EditContacto" asp-route-id="@item.Id"><i class="fa fa-pencil" aria-hidden="true"></i> Editar</a>
+                                            <a class="btn btn-secondary" asp-action="DetailsContacto" asp-route-id="@item.Id"><i class="fa fa-info-circle" aria-hidden="true"></i> Detalle</a>
+                                            <a class="btn btn-danger" asp-action="DeleteContacto" asp-route-id="@item.Id"><i class="fa fa-eraser" aria-hidden="true"></i> Borrar</a>
                                         </td>
                                     </tr>
                                 }
@@ -55,7 +56,7 @@
                     }
                     else
                     {
-                        <p>No hay registros</p>
+                        <p>No hay Contactos</p>
                     }
                 </div>
             </div>

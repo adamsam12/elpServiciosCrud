@@ -16,20 +16,20 @@ namespace CrudNet8MVC.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> IndexContacto()
         {
             return View(await _contexto.Contacto.ToListAsync());
         }
 
         [HttpGet]
-        public IActionResult Crear()
+        public IActionResult CrearContacto()
         {
             return View();
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Crear(Contacto contacto)
+        public async Task<IActionResult> CrearContacto(Contacto contacto)
         {
             if (ModelState.IsValid)
             {
@@ -39,7 +39,7 @@ namespace CrudNet8MVC.Controllers
 
                 _contexto.Contacto.Add(contacto);
                 await _contexto.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(IndexContacto));
             }
 
             return View();
@@ -47,7 +47,7 @@ namespace CrudNet8MVC.Controllers
 
 
         [HttpGet]
-        public IActionResult Editar(int? id)
+        public IActionResult EditContacto(int? id)
         {
             if(id == null)
             {
@@ -65,20 +65,20 @@ namespace CrudNet8MVC.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Editar(Contacto contacto)
+        public async Task<IActionResult> EditContacto(Contacto contacto)
         {
             if (ModelState.IsValid)
             {               
                 _contexto.Update(contacto);
                 await _contexto.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(IndexContacto));
             }
 
             return View();
         }
 
         [HttpGet]
-        public IActionResult Detalle(int? id)
+        public IActionResult DetailsContacto(int? id)
         {
             if (id == null)
             {
@@ -95,7 +95,7 @@ namespace CrudNet8MVC.Controllers
         }
 
         [HttpGet]
-        public IActionResult Borrar(int? id)
+        public IActionResult DeleteContacto(int? id)
         {
             if (id == null)
             {
@@ -111,7 +111,7 @@ namespace CrudNet8MVC.Controllers
             return View(contacto);
         }
 
-        [HttpPost, ActionName("Borrar")]
+        [HttpPost, ActionName("DeleteContacto")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> BorrarContacto(int? id)
         {
@@ -124,7 +124,7 @@ namespace CrudNet8MVC.Controllers
             //Borrado
             _contexto.Contacto.Remove(contacto);
             await _contexto.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));            
+            return RedirectToAction(nameof(IndexContacto));            
         }
 
 

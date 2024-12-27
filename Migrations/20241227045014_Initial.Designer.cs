@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CrudNet8MVC.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241223063119_UPDATE-CONTACT")]
-    partial class UPDATECONTACT
+    [Migration("20241227045014_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -55,6 +55,37 @@ namespace CrudNet8MVC.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Contacto");
+                });
+
+            modelBuilder.Entity("CrudNet8MVC.Models.Local", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Ciudad")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Direccion")
+                        .HasColumnType("longtext");
+
+                    b.Property<DateTime>("FechaCreacion")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<string>("Nombre")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Pais")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Telefono")
+                        .HasColumnType("longtext");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Local");
                 });
 
             modelBuilder.Entity("CrudNet8MVC.Models.Message", b =>

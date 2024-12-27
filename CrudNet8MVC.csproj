@@ -26,4 +26,12 @@
     <Folder Include="Migrations\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <AdditionalFiles Include="Views\Contact\Delete.cshtml" />
+    <AdditionalFiles Include="Views\Contact\Details.cshtml" />
+    <AdditionalFiles Include="Views\Contact\Edit.cshtml" />
+    <AdditionalFiles Include="Views\Contact\Index.cshtml" />
+    <AdditionalFiles Include="Views\Contact\Privacy.cshtml" />
+  </ItemGroup>
+
 </Project>

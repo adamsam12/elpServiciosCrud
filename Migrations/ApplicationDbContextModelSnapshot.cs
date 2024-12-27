@@ -54,6 +54,37 @@ namespace CrudNet8MVC.Migrations
                     b.ToTable("Contacto");
                 });
 
+            modelBuilder.Entity("CrudNet8MVC.Models.Local", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Ciudad")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Direccion")
+                        .HasColumnType("longtext");
+
+                    b.Property<DateTime>("FechaCreacion")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<string>("Nombre")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Pais")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Telefono")
+                        .HasColumnType("longtext");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Local");
+                });
+
             modelBuilder.Entity("CrudNet8MVC.Models.Message", b =>
                 {
                     b.Property<int>("Id")

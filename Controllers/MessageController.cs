@@ -17,7 +17,7 @@ public class MessageController:Controller
     }
     
     [HttpGet]
-    public async Task<IActionResult> Index()
+    public async Task<IActionResult> IndexMessaje()
     {
         return View(await _contexto.Message.ToListAsync());
     }
@@ -37,7 +37,7 @@ public class MessageController:Controller
             message.Date = DateTime.Now;
             _contexto.Message.Add(message);
             await _contexto.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(IndexMessaje));
         }
         return View();
     }
@@ -65,7 +65,7 @@ public class MessageController:Controller
         {
             _contexto.Message.Update(message);
             await _contexto.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(IndexMessaje));
         }
         return View(message);
     }
@@ -107,7 +107,7 @@ public class MessageController:Controller
         var message = await _contexto.Message.FindAsync(id);
         _contexto.Message.Remove(message);
         await _contexto.SaveChangesAsync();
-        return RedirectToAction(nameof(Index));
+        return RedirectToAction(nameof(IndexMessaje));
     }
     
     

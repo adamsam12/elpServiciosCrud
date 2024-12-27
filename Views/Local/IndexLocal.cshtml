@@ -1,0 +1,66 @@
+﻿@model IEnumerable<CrudNet8MVC.Models.Local>
+@{
+    ViewData["Title"] = "Lista de Locales";
+}
+
+<h1 class="text-center">Pagina Local </h1>
+<div class="row">
+    <div class="offset-9 col-3 mb-3">
+        <a asp-action="CrearLocal" asp-controller="Local" class="btn btn-secondary d-block mx-auto btn-lg">
+            <i class="fa fa-plus" aria-hidden="true"></i> Nuevo Local
+        </a>
+    </div>
+</div>
+
+<div class="row">
+    <div class="offset-12">
+        <div class="card border">
+            <div class="card-header bg-dark">
+                <h3 class="text-white"><strong>Lista de Locales</strong></h3>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    @if(Model.Count() > 0)
+                    {
+                        <table class="table table-bordered" id="tblUsuarios" width="100%" cellspacing="0">
+                            <thead>
+                                <tr>
+                                    <th>@Html.DisplayNameFor(m => m.Id)</th>
+                                    <th>@Html.DisplayNameFor(m => m.Nombre)</th>
+                                    <th>@Html.DisplayNameFor(m => m.Telefono)</th>
+                                    <th>@Html.DisplayNameFor(m => m.Direccion)</th>
+                                    <th>@Html.DisplayNameFor(m => m.Ciudad)</th>
+                                    <th>@Html.DisplayNameFor(m => m.Pais)</th>
+                                    <th>@Html.DisplayNameFor(m => m.FechaCreacion)</th>
+                                    <th>Acciones</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach(var item in Model){
+                                    <tr>
+                                        <td>@Html.DisplayFor(m => item.Id)</td>
+                                        <td>@Html.DisplayFor(m => item.Nombre)</td>
+                                        <td>@Html.DisplayFor(m => item.Telefono)</td>
+                                        <td>@Html.DisplayFor(m => item.Direccion)</td>
+                                        <td>@Html.DisplayFor(m => item.Ciudad)</td>
+                                        <td>@Html.DisplayFor(m => item.Ciudad)</td>
+                                        <td>@Html.DisplayFor(m => item.FechaCreacion)</td>
+                                        <td>
+                                            <a class="btn btn-warning" asp-action="EditarLocal" asp-route-id="@item.Id"><i class="fa fa-pencil" aria-hidden="true"></i> Editar</a>
+                                            <a class="btn btn-secondary" asp-action="DetallesLocal" asp-route-id="@item.Id"><i class="fa fa-info-circle" aria-hidden="true"></i> Detalle</a>
+                                            <a class="btn btn-danger" asp-action="Borrar" asp-route-id="@item.Id"><i class="fa fa-eraser" aria-hidden="true"></i> Borrar</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    }
+                    else
+                    {
+                        <p>No hay Locales</p>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

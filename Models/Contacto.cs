@@ -13,6 +13,7 @@ namespace CrudNet8MVC.Models
         public string? Telefono { get; set; }
 
         [Required(ErrorMessage = "El celular es obligatorio")]
+
         [StringLength(9, MinimumLength = 9, ErrorMessage = "El celular debe tener 9 dígitos")]
         public string Celular { get; set; }
 

@@ -9,81 +9,123 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CrudNet8MVC
 build_property.RootNamespace = CrudNet8MVC
-build_property.ProjectDir = C:\Users\ADMIN1\Documents\GitHub\elpServiciosCrud-clinton\
+build_property.ProjectDir = C:\Users\clint\OneDrive\Escritorio\wk\elpServiciosCrud-clinton\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\ADMIN1\Documents\GitHub\elpServiciosCrud-clinton
+build_property.MSBuildProjectDirectory = C:\Users\clint\OneDrive\Escritorio\wk\elpServiciosCrud-clinton
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/ADMIN1/Documents/GitHub/elpServiciosCrud-clinton/Views/Contact/Borrar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxCb3JyYXIuY3NodG1s
+[C:/Users/clint/OneDrive/Escritorio/wk/elpServiciosCrud-clinton/Views/Contact/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN1/Documents/GitHub/elpServiciosCrud-clinton/Views/Contact/Crear.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxDcmVhci5jc2h0bWw=
+[C:/Users/clint/OneDrive/Escritorio/wk/elpServiciosCrud-clinton/Views/Contact/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN1/Documents/GitHub/elpServiciosCrud-clinton/Views/Contact/Detalle.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxEZXRhbGxlLmNzaHRtbA==
+[C:/Users/clint/OneDrive/Escritorio/wk/elpServiciosCrud-clinton/Views/Contact/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN1/Documents/GitHub/elpServiciosCrud-clinton/Views/Contact/Editar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxFZGl0YXIuY3NodG1s
+[C:/Users/clint/OneDrive/Escritorio/wk/elpServiciosCrud-clinton/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN1/Documents/GitHub/elpServiciosCrud-clinton/Views/Contact/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ADMIN1/Documents/GitHub/elpServiciosCrud-clinton/Views/Contact/Privacy.cshtml]
+[C:/Users/clint/OneDrive/Escritorio/wk/elpServiciosCrud-clinton/Views/Contact/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = 
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN1/Documents/GitHub/elpServiciosCrud-clinton/Views/Message/Create.cshtml]
+[C:/Users/clint/OneDrive/Escritorio/wk/elpServiciosCrud-clinton/Views/Contact/CrearContacto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxDcmVhckNvbnRhY3RvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/clint/OneDrive/Escritorio/wk/elpServiciosCrud-clinton/Views/Contact/DeleteContacto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxEZWxldGVDb250YWN0by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/clint/OneDrive/Escritorio/wk/elpServiciosCrud-clinton/Views/Contact/DetailsContacto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxEZXRhaWxzQ29udGFjdG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/clint/OneDrive/Escritorio/wk/elpServiciosCrud-clinton/Views/Contact/EditContacto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxFZGl0Q29udGFjdG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/clint/OneDrive/Escritorio/wk/elpServiciosCrud-clinton/Views/Contact/IndexContacto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleENvbnRhY3RvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/clint/OneDrive/Escritorio/wk/elpServiciosCrud-clinton/Views/Local/Borrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYWxcQm9ycmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/clint/OneDrive/Escritorio/wk/elpServiciosCrud-clinton/Views/Local/CrearLocal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYWxcQ3JlYXJMb2NhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/clint/OneDrive/Escritorio/wk/elpServiciosCrud-clinton/Views/Local/DetallesLocal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYWxcRGV0YWxsZXNMb2NhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/clint/OneDrive/Escritorio/wk/elpServiciosCrud-clinton/Views/Local/EditarLocal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYWxcRWRpdGFyTG9jYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/clint/OneDrive/Escritorio/wk/elpServiciosCrud-clinton/Views/Local/IndexLocal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYWxcSW5kZXhMb2NhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/clint/OneDrive/Escritorio/wk/elpServiciosCrud-clinton/Views/Local/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYWxcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/clint/OneDrive/Escritorio/wk/elpServiciosCrud-clinton/Views/Message/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN1/Documents/GitHub/elpServiciosCrud-clinton/Views/Message/Delete.cshtml]
+[C:/Users/clint/OneDrive/Escritorio/wk/elpServiciosCrud-clinton/Views/Message/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN1/Documents/GitHub/elpServiciosCrud-clinton/Views/Message/Details.cshtml]
+[C:/Users/clint/OneDrive/Escritorio/wk/elpServiciosCrud-clinton/Views/Message/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN1/Documents/GitHub/elpServiciosCrud-clinton/Views/Message/Edit.cshtml]
+[C:/Users/clint/OneDrive/Escritorio/wk/elpServiciosCrud-clinton/Views/Message/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN1/Documents/GitHub/elpServiciosCrud-clinton/Views/Message/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZVxJbmRleC5jc2h0bWw=
+[C:/Users/clint/OneDrive/Escritorio/wk/elpServiciosCrud-clinton/Views/Message/IndexMessaje.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZVxJbmRleE1lc3NhamUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN1/Documents/GitHub/elpServiciosCrud-clinton/Views/Message/Privacy.cshtml]
+[C:/Users/clint/OneDrive/Escritorio/wk/elpServiciosCrud-clinton/Views/Message/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN1/Documents/GitHub/elpServiciosCrud-clinton/Views/Shared/Error.cshtml]
+[C:/Users/clint/OneDrive/Escritorio/wk/elpServiciosCrud-clinton/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN1/Documents/GitHub/elpServiciosCrud-clinton/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/clint/OneDrive/Escritorio/wk/elpServiciosCrud-clinton/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN1/Documents/GitHub/elpServiciosCrud-clinton/Views/_ViewImports.cshtml]
+[C:/Users/clint/OneDrive/Escritorio/wk/elpServiciosCrud-clinton/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN1/Documents/GitHub/elpServiciosCrud-clinton/Views/_ViewStart.cshtml]
+[C:/Users/clint/OneDrive/Escritorio/wk/elpServiciosCrud-clinton/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN1/Documents/GitHub/elpServiciosCrud-clinton/Views/Shared/_Layout.cshtml]
+[C:/Users/clint/OneDrive/Escritorio/wk/elpServiciosCrud-clinton/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-l5wtdh9ndw
