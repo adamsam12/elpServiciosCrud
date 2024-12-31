@@ -1,15 +1,15 @@
-﻿@model CrudNet8MVC.Models.Contacto
+﻿@model CrudNet8MVC.Models.Local
 @{
-    ViewData["Title"] = "Borrar Contacto";
+    ViewData["Title"] = "Borrar local";
 }
 
-<h1 class="text-center">Contacto con .NET 8 (.NET Core MVC)</h1>
+
 
 <div class="row">
     <div class="offset-12">
         <div class="card border">
             <div class="card-header bg-dark">
-                <h3 class="text-white"><strong>Borrar Usuario</strong></h3>
+                <h3 class="text-white"><strong>Borrar Local</strong></h3>
             </div>
             <div class="card-body">
 
@@ -32,15 +32,20 @@
                     </div>
 
                     <div class="form-group">
-                        <label asp-for="Celular" class="control-label"></label>
-                        <input asp-for="Celular" class="form-control" readonly />
-                        <span asp-validation-for="Celular" class="text-danger"></span>
+                        <label asp-for="Direccion" class="control-label"></label>
+                        <input asp-for="Direccion" class="form-control" readonly />
+                        <span asp-validation-for="Direccion" class="text-danger"></span>
                     </div>
 
                     <div class="form-group">
-                        <label asp-for="Email" class="control-label"></label>
-                        <input asp-for="Email" class="form-control" readonly />
-                        <span asp-validation-for="Email" class="text-danger"></span>
+                        <label asp-for="Ciudad" class="control-label"></label>
+                        <input asp-for="Ciudad" class="form-control" readonly />
+                        <span asp-validation-for="Ciudad" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Ciudad" class="control-label"></label>
+                        <input asp-for="Ciudad" class="form-control" readonly />
+                        <span asp-validation-for="Ciudad" class="text-danger"></span>
                     </div>
 
                     <div class="form-group mt-3">
@@ -48,7 +53,7 @@
                     </div>
                 </form>
 
-                <a asp-controller="Inicio" asp-action="Index">Volver</a>
+                <a asp-controller="Contact" asp-action="Index">Volver</a>
             </div>
         </div>
     </div>

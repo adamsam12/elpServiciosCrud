@@ -1,0 +1,43 @@
+﻿@model CrudNet8MVC.Models.Message
+@{
+    ViewData["Title"] = "Borrar Message";
+}
+
+
+
+<div class="row">
+    <div class="offset-12">
+        <div class="card border">
+            <div class="card-header bg-dark">
+                <h3 class="text-white"><strong>Borrar Message</strong></h3>
+            </div>
+            <div class="card-body">
+
+                <form asp-action="Delete">
+
+                    <!--ID del usuario como campo oculto *-->
+                    <input type="hidden" asp-for="Id" />
+
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="Text" class="control-label"></label>
+                        <input asp-for="Text" class="form-control" readonly />
+                        <span asp-validation-for="Text" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Email" class="control-label"></label>
+                        <input asp-for="Email" class="form-control" readonly />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group mt-3">
+                        <button type="submit" class="btn btn-success d-block mx-auto"><i class="fa fa-user" aria-hidden="true"></i> Borrar Message</button>
+                    </div>
+                </form>
+
+                <a asp-controller="Message" asp-action="Index">Volver</a>
+            </div>
+        </div>
+    </div>
+</div>

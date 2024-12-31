@@ -1,0 +1,56 @@
+﻿@model CrudNet8MVC.Models.Local
+@{
+    ViewData["Title"] = "Crear Nuevo Local";
+}
+
+
+<div class="row">
+    <div class="offset-12">
+        <div class="card border">
+            <div class="card-header bg-dark">
+                <h3 class="text-white"><strong>Crear Local</strong></h3>
+            </div>
+            <div class="card-body">
+               
+                <form asp-action="CrearLocal" method="POST">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="Nombre" class="control-label"></label>
+                        <input asp-for="Nombre" type="text" class="form-control" placeholder="Ingresa el nombre" />
+                        <span asp-validation-for="Nombre" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Telefono" class="control-label"></label>
+                        <input asp-for="Telefono" type="text" class="form-control" placeholder="Ingresa el teléfono" />
+                        <span asp-validation-for="Nombre" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Direccion" class="control-label"></label>
+                        <input asp-for="Direccion" type="text" class="form-control" placeholder="Ingresa el direccion" />
+                        <span asp-validation-for="Direccion" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Ciudad" class="control-label"></label>
+                        <input asp-for="Ciudad"  class="form-control" placeholder="Ingresa el ciudad" />
+                        <span asp-validation-for="Ciudad" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Pais" class="control-label"></label>
+                        <input asp-for="Pais" class="form-control" placeholder="Ingresa el pais" />
+                        <span asp-validation-for="Pais" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group mt-3">
+                        <button type="submit" class="btn btn-secondary d-block mx-auto"><i class="fa fa-user" aria-hidden="true"></i> Crear Local</button>
+                    </div>
+                </form>
+
+                <a asp-controller="Contact" asp-action="IndexContacto">Volver</a>
+            </div>
+        </div>
+    </div>
+</div>

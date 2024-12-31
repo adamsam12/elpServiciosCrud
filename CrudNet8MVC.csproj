@@ -22,4 +22,16 @@
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AdditionalFiles Include="Views\Contact\Delete.cshtml" />
+    <AdditionalFiles Include="Views\Contact\Details.cshtml" />
+    <AdditionalFiles Include="Views\Contact\Edit.cshtml" />
+    <AdditionalFiles Include="Views\Contact\Index.cshtml" />
+    <AdditionalFiles Include="Views\Contact\Privacy.cshtml" />
+  </ItemGroup>
+
 </Project>

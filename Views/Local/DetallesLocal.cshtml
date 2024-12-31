@@ -1,28 +1,28 @@
-﻿@model CrudNet8MVC.Models.Contacto
+﻿@model CrudNet8MVC.Models.Local
 @{
-    ViewData["Title"] = "Detalle Contacto";
+    ViewData["Title"] = "Detalle local";
 }
 
-<h1 class="text-center">Contacto con .NET 8 (.NET Core MVC)</h1>
 
 <div class="row">
     <div class="offset-12">
         <div class="card border">
             <div class="card-header bg-dark">
-                <h3 class="text-white"><strong>Editar Usuario</strong></h3>
+                <h3 class="text-white"><strong>Editar Local</strong></h3>
             </div>
             <div class="card-body">
 
                 <ul class="list-group">
                     <li class="list-group-item"><strong>Nombre: </strong>@Html.DisplayFor(m => m.Nombre)</li>
                     <li class="list-group-item"><strong>Teléfono: </strong>@Html.DisplayFor(m => m.Telefono)</li>
-                    <li class="list-group-item"><strong>Celular: </strong>@Html.DisplayFor(m => m.Celular)</li>
-                    <li class="list-group-item"><strong>Email: </strong>@Html.DisplayFor(m => m.Email)</li>
+                    <li class="list-group-item"><strong>Celular: </strong>@Html.DisplayFor(m => m.Direccion)</li>
+                    <li class="list-group-item"><strong>Email: </strong>@Html.DisplayFor(m => m.Ciudad)</li>
+                    <li class="list-group-item"><strong>Email: </strong>@Html.DisplayFor(m => m.Pais)</li>
                     <li class="list-group-item"><strong>Fecha: </strong>@Html.DisplayFor(m => m.FechaCreacion)</li>
                 </ul>
                
 
-                <a asp-controller="Inicio" asp-action="Index">Volver</a>
+                <a asp-controller="Contact" asp-action="Index">Volver</a>
             </div>
         </div>
     </div>

@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\clint\\OneDrive\\Escritorio\\wk\\elpServiciosCrud-clinton\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\clint\\OneDrive\\Escritorio\\wk\\elpServiciosCrud-clinton\\CrudNet8MVC.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CrudNet8MVC.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\clint\\OneDrive\\Escritorio\\wk\\elpServiciosCrud-clinton\\CrudNet8MVC.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CrudNet8MVC.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\clint\\OneDrive\\Escritorio\\wk\\elpServiciosCrud-clinton\\Folder.DotSettings.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Folder.DotSettings.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\clint\\OneDrive\\Escritorio\\wk\\elpServiciosCrud-clinton\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\clint\\OneDrive\\Escritorio\\wk\\elpServiciosCrud-clinton\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\clint\\OneDrive\\Escritorio\\wk\\elpServiciosCrud-clinton\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\clint\\OneDrive\\Escritorio\\wk\\elpServiciosCrud-clinton\\Models\\Local.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Local.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\clint\\OneDrive\\Escritorio\\wk\\elpServiciosCrud-clinton\\Models\\Contacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Contacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\clint\\OneDrive\\Escritorio\\wk\\elpServiciosCrud-clinton\\Models\\Usurio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Usurio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\clint\\OneDrive\\Escritorio\\wk\\elpServiciosCrud-clinton\\Models\\ErrorViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\ErrorViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CrudNet8MVC.csproj",
+              "DocumentMoniker": "C:\\Users\\clint\\OneDrive\\Escritorio\\wk\\elpServiciosCrud-clinton\\CrudNet8MVC.csproj",
+              "RelativeDocumentMoniker": "CrudNet8MVC.csproj",
+              "ToolTip": "C:\\Users\\clint\\OneDrive\\Escritorio\\wk\\elpServiciosCrud-clinton\\CrudNet8MVC.csproj",
+              "RelativeToolTip": "CrudNet8MVC.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-27T01:16:37.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CrudNet8MVC.csproj.user",
+              "DocumentMoniker": "C:\\Users\\clint\\OneDrive\\Escritorio\\wk\\elpServiciosCrud-clinton\\CrudNet8MVC.csproj.user",
+              "RelativeDocumentMoniker": "CrudNet8MVC.csproj.user",
+              "ToolTip": "C:\\Users\\clint\\OneDrive\\Escritorio\\wk\\elpServiciosCrud-clinton\\CrudNet8MVC.csproj.user",
+              "RelativeToolTip": "CrudNet8MVC.csproj.user",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
+              "WhenOpened": "2024-12-27T01:16:31.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\clint\\OneDrive\\Escritorio\\wk\\elpServiciosCrud-clinton\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\clint\\OneDrive\\Escritorio\\wk\\elpServiciosCrud-clinton\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T01:15:04.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Folder.DotSettings.user",
+              "DocumentMoniker": "C:\\Users\\clint\\OneDrive\\Escritorio\\wk\\elpServiciosCrud-clinton\\Folder.DotSettings.user",
+              "RelativeDocumentMoniker": "Folder.DotSettings.user",
+              "ToolTip": "C:\\Users\\clint\\OneDrive\\Escritorio\\wk\\elpServiciosCrud-clinton\\Folder.DotSettings.user",
+              "RelativeToolTip": "Folder.DotSettings.user",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
+              "WhenOpened": "2024-12-27T01:14:58.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\clint\\OneDrive\\Escritorio\\wk\\elpServiciosCrud-clinton\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\clint\\OneDrive\\Escritorio\\wk\\elpServiciosCrud-clinton\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-27T01:14:54.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Local.cs",
+              "DocumentMoniker": "C:\\Users\\clint\\OneDrive\\Escritorio\\wk\\elpServiciosCrud-clinton\\Models\\Local.cs",
+              "RelativeDocumentMoniker": "Models\\Local.cs",
+              "ToolTip": "C:\\Users\\clint\\OneDrive\\Escritorio\\wk\\elpServiciosCrud-clinton\\Models\\Local.cs",
+              "RelativeToolTip": "Models\\Local.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T01:06:13.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\clint\\OneDrive\\Escritorio\\wk\\elpServiciosCrud-clinton\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\clint\\OneDrive\\Escritorio\\wk\\elpServiciosCrud-clinton\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T01:04:51.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Contacto.cs",
+              "DocumentMoniker": "C:\\Users\\clint\\OneDrive\\Escritorio\\wk\\elpServiciosCrud-clinton\\Models\\Contacto.cs",
+              "RelativeDocumentMoniker": "Models\\Contacto.cs",
+              "ToolTip": "C:\\Users\\clint\\OneDrive\\Escritorio\\wk\\elpServiciosCrud-clinton\\Models\\Contacto.cs",
+              "RelativeToolTip": "Models\\Contacto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T01:01:50.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\clint\\OneDrive\\Escritorio\\wk\\elpServiciosCrud-clinton\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\clint\\OneDrive\\Escritorio\\wk\\elpServiciosCrud-clinton\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-27T00:59:58.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Usurio.cs",
+              "DocumentMoniker": "C:\\Users\\clint\\OneDrive\\Escritorio\\wk\\elpServiciosCrud-clinton\\Models\\Usurio.cs",
+              "RelativeDocumentMoniker": "Models\\Usurio.cs",
+              "ToolTip": "C:\\Users\\clint\\OneDrive\\Escritorio\\wk\\elpServiciosCrud-clinton\\Models\\Usurio.cs",
+              "RelativeToolTip": "Models\\Usurio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T00:59:40.048Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
